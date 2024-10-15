@@ -30,8 +30,8 @@ namespace CatalogService.External.Spotify.Services
             var body = new List<KeyValuePair<string, string>>
             {
                 new("grant_type","client_credentials"),
-                new("client_id", "bb6984d892c140e3a2e042c548bf6242"),
-                new("client_secret", "e17160e96673433db1c4957cab6d1abe")
+                new("client_id", ""),
+                new("client_secret", "")
             };
 
             var client = new HttpClient();
